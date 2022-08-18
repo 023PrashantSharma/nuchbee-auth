@@ -1,6 +1,11 @@
 body{
   color:#001540
 }
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 0.3s linear;
+  }
+}
 .bac-7 {
   background: #001540;
 }
@@ -26,4 +31,13 @@ body{
 
 .color-3 {
   color: #95A5A6;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }

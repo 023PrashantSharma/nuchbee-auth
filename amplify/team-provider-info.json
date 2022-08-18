@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nuchbeeauth-dev-180438-authRole",
+      "UnauthRoleArn": "arn:aws:iam::323455746002:role/amplify-nuchbeeauth-dev-180438-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::323455746002:role/amplify-nuchbeeauth-dev-180438-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-nuchbeeauth-dev-180438-deployment",
+      "UnauthRoleName": "amplify-nuchbeeauth-dev-180438-unauthRole",
+      "StackName": "amplify-nuchbeeauth-dev-180438",
+      "StackId": "arn:aws:cloudformation:ap-south-1:323455746002:stack/amplify-nuchbeeauth-dev-180438/20bdec30-1ef2-11ed-a60e-027d4c6f20da",
+      "AmplifyAppId": "d2l2fvh18spsgv"
+    }
+  }
+}

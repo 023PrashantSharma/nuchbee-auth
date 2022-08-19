@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nuchbeeauth-dev-123250-authRole",
+      "UnauthRoleArn": "arn:aws:iam::552930500407:role/amplify-nuchbeeauth-dev-123250-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::552930500407:role/amplify-nuchbeeauth-dev-123250-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-nuchbeeauth-dev-123250-deployment",
+      "UnauthRoleName": "amplify-nuchbeeauth-dev-123250-unauthRole",
+      "StackName": "amplify-nuchbeeauth-dev-123250",
+      "StackId": "arn:aws:cloudformation:ap-south-1:552930500407:stack/amplify-nuchbeeauth-dev-123250/f0c49150-1f8c-11ed-b757-065edfa09f2a",
+      "AmplifyAppId": "d1mub5m9u3lju3",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-nuchbeeauth-dev-123250-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "nuchbeeauth8303f1cc": {}
+      },
+      "function": {
+        "nuchbeeauth8303f1ccDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-nuchbeeauth-dev-123250-deployment",
+          "s3Key": "amplify-builds/nuchbeeauth8303f1ccDefineAuthChallenge-423665682f436e777166-build.zip"
+        },
+        "nuchbeeauth8303f1ccCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-nuchbeeauth-dev-123250-deployment",
+          "s3Key": "amplify-builds/nuchbeeauth8303f1ccCreateAuthChallenge-663056446b6b686b6259-build.zip"
+        },
+        "nuchbeeauth8303f1ccVerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "6LdERowhAAAAADQDfWVwI1GwkF-UjDfVJHQU_TuQ",
+          "deploymentBucketName": "amplify-nuchbeeauth-dev-123250-deployment",
+          "s3Key": "amplify-builds/nuchbeeauth8303f1ccVerifyAuthChallengeResponse-6b2f32393731734e7164-build.zip"
+        },
+        "nuchbeeauth8303f1ccPostConfirmation": {
+          "GROUP": "first-nuchbe",
+          "deploymentBucketName": "amplify-nuchbeeauth-dev-123250-deployment",
+          "s3Key": "amplify-builds/nuchbeeauth8303f1ccPostConfirmation-425a6a33496b624f7a7a-build.zip"
+        }
+      }
+    }
+  }
+}

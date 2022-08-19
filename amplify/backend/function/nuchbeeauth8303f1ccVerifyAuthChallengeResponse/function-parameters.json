@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-verify"
+  ],
+  "parentResource": "nuchbeeauth8303f1cc",
+  "functionName": "nuchbeeauth8303f1ccVerifyAuthChallengeResponse",
+  "resourceName": "nuchbeeauth8303f1ccVerifyAuthChallengeResponse",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\VerifyAuthChallengeResponse",
+  "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+  "triggerEventPath": "VerifyAuthChallengeResponse.event.json",
+  "roleName": "nuchbeeauth8303f1ccVerifyAuthChallengeResponse",
+  "skipEdit": true,
+  "RECAPTCHASECRET": "6LdERowhAAAAADQDfWVwI1GwkF-UjDfVJHQU_TuQ",
+  "enableCors": false
+}

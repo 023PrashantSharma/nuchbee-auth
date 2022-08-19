@@ -3,10 +3,10 @@
 
 const awsmobile = {
     "aws_project_region": "ap-south-1",
-    "aws_cognito_identity_pool_id": "ap-south-1:ec718336-3a41-4397-8778-c22d9b5dc9b0",
+    "aws_cognito_identity_pool_id": "ap-south-1:0dfd3290-9e34-4844-83d2-691410c0c968",
     "aws_cognito_region": "ap-south-1",
-    "aws_user_pools_id": "ap-south-1_h17sUoVwF",
-    "aws_user_pools_web_client_id": "d8o22ijj3aoch5t50sgm1q7d9",
+    "aws_user_pools_id": "ap-south-1_Eiz571NU4",
+    "aws_user_pools_web_client_id": "7v3k63v0p1vh1jlnj3o26do9jp",
     "oauth": {
         "domain": "nuchbee-auth-dev.auth.ap-south-1.amazoncognito.com",
         "scope": [
@@ -16,8 +16,8 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "https://main.ddqhn8hurjiss.amplifyapp.com/",
-        "redirectSignOut": "https://main.ddqhn8hurjiss.amplifyapp.com/",
+        "redirectSignIn": "https://nuchbee-auth-dev.auth.ap-south-1.amazoncognito.com/",
+        "redirectSignOut": "https://nuchbee-auth-dev.auth.ap-south-1.amazoncognito.com/",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS",
